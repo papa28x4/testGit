@@ -15,3 +15,10 @@ This repo has 4 branches. `master`, `frontend`, `backend` and `develop`. The `ma
 If you're finding it difficult to find the right git command, here is an awesome online tool at your disposal. [git explorer](https://gitexplorer.com)
 
 ---
+
+To change your origin master
+git remote rm origin
+git remote add origin https://github.com/papa28x4/testGit.git
+git config master.remote origin
+git config master.merge refs/heads/master
+
