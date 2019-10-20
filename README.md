@@ -16,7 +16,7 @@ If you're finding it difficult to find the right git command, here is an awesome
 
 ---
 
-To change your origin master
+To change your origin master:
 git remote rm origin
 git remote add origin https://github.com/papa28x4/testGit.git
 git config master.remote origin
